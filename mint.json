@@ -1,9 +1,9 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Documentation",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "https://lucdn.letsupgrade.net/assets/logo_ddfba0d4a4.svg",
+    "light": "https://lucdn.letsupgrade.net/assets/0f172a_slet_1_25x_3aed98a668.png"
   },
   "favicon": "/favicon.svg",
   "colors": {
