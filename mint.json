@@ -14,7 +14,24 @@
       "from": "#6b21a8",
       "to": "#a855f7"
     }
-  }, "topbarLinks": [
+  },
+  "theme": "prism",
+  "layout": "sidenav",
+  "background": {
+    "style": "windows"
+  },
+  "sidebar": {
+    "items": "container"
+  },
+  "topbar":{
+    "style": "default"
+  },
+  "feedback": {
+    "thumbsRating":true,
+    "suggestEdit": true,
+    "raiseIssue":true
+  },
+  "topbarLinks": [
     {
       "name": "Support",
       "url": "mailto:support@lisaapp.in"
@@ -22,12 +39,16 @@
   ],
   "topbarCtaButton": {
     "name": "Login",
-    "url": "https://lisaapp.in/login"
+    "url": "https://lisaapp.in/auth"
   },
   "tabs": [
     {
       "name": "API Reference",
       "url": "api-reference"
+    },
+    {
+      "name": "Blog",
+      "url": "https://your-website.com/blog"
     }
   ],
   "anchors": [
@@ -49,21 +70,128 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development", {
-        "group": "Sub-Navigation",
-        "pages": [
-          "subpage1",
-          "subpage2"
-        ],
-        "icon": "folder",
-        "iconType": "solid"
-      }]
+      "group": "Getting Started",
+      "pages": [
+        "getting-started/introduction",
+        "getting-started/capabilities",
+        "getting-started/usps"
+      ]
     },
     {
-      "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
+      "group": "Onboarding",
+      "pages": [
+        "authentication/login",
+        "authentication/logout",
+        "authentication/signup",
+         "authentication/recover-password",
+        "authentication/invite-learner",
+        "authentication/invite-admin-trainer",
+        "authentication/switch-organization"
+       
+      ]
     },
+    {
+      "group": "Modules & Products",
+      "pages": [
+        "modules/admin-panel",
+        "modules/trainer-panel",
+        "modules/lxp",
+        "modules/micro-learning"
+      ]
+    },
+    {
+      "group": "Learning Experience Platform (LXP)",
+      "pages": [
+        "lxp/introduction",
+        {
+          "group": "Fundamentals",
+          "pages": [
+            "lxp/fundamentals/course",
+            "lxp/fundamentals/curriculum",
+            "lxp/fundamentals/session",
+            "lxp/fundamentals/content-type",
+            "lxp/fundamentals/plugins",
+            "lxp/fundamentals/noticeboard"
+          ]
+        },
+        {
+          "group": "Admin Functions",
+          "pages": [
+            "lxp/admin/course-management",
+            "lxp/admin/curriculum-management",
+            "lxp/admin/content-session-management",
+            "lxp/admin/plugins-management",
+            "lxp/admin/noticeboard-management",
+            "lxp/admin/user-management",
+            "lxp/admin/roles-permissions",
+            "lxp/admin/organization-settings"
+          ]
+        },
+        {
+          "group": "Learner Functions",
+          "pages": [
+            "lxp/learner/dashboard",
+            "lxp/learner/courses",
+            "lxp/learner/sessions",
+            "lxp/learner/progress-certification",
+            "lxp/learner/attendance",
+            "lxp/learner/focus-mode",
+            "lxp/learner/plugins",
+            "lxp/learner/profile",
+            "lxp/learner/settings"
+          ]
+        },
+        {
+          "group": "Trainer Functions",
+          "pages": [
+            "lxp/trainer/navigation",
+            "lxp/trainer/dashboard",
+            "lxp/trainer/session-management",
+            "lxp/trainer/course-management",
+            "lxp/trainer/assignment-management",
+            "lxp/trainer/settings"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Micro Learning Platform",
+      "pages": [
+        "micro-learning/introduction",
+        {
+          "group": "Features",
+          "pages": [
+            "micro-learning/courses",
+            "micro-learning/knowledge-retention",
+            "micro-learning/gamification",
+            "micro-learning/broadcasts-meetings",
+            "micro-learning/bookmarks",
+            "micro-learning/profile-settings"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Security & Data Privacy",
+      "pages": [
+        "security/data-protection",
+        "security/user-privacy",
+        "security/compliance"
+      ]
+    },
+    {
+      "group": "Troubleshooting",
+      "pages": [
+        "troubleshooting/common-issues",
+        "troubleshooting/faqs",
+        "troubleshooting/support"
+      ]
+    },
+    {
+      "group": "Updates & Info",
+      "pages": ["updates/glossary", "updates/release-notes", "updates/roadmap"]
+    },
+   
     {
       "group": "API Documentation",
       "pages": ["api-reference/introduction"]
