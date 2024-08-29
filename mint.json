@@ -1,29 +1,28 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Documentation",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "https://lucdn.letsupgrade.net/assets/logo_ddfba0d4a4.svg",
+    "light": "https://lucdn.letsupgrade.net/assets/0f172a_slet_1_25x_3aed98a668.png"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#9333ea",
+    "light": "#a855f7",
+    "dark": "#6b21a8",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#6b21a8",
+      "to": "#a855f7"
     }
-  },
-  "topbarLinks": [
+  }, "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@lisaapp.in"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Login",
+    "url": "https://lisaapp.in/login"
   },
   "tabs": [
     {
@@ -51,7 +50,15 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "pages": ["introduction", "quickstart", "development", {
+        "group": "Sub-Navigation",
+        "pages": [
+          "subpage1",
+          "subpage2"
+        ],
+        "icon": "folder",
+        "iconType": "solid"
+      }]
     },
     {
       "group": "Essentials",
@@ -71,8 +78,8 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "twitter": "https://twitter.com/LisaApp_in",
+    "instagram": "https://www.instagram.com/lisaapp.in",
+    "linkedin": "https://www.linkedin.com/company/lisaapp-in"
   }
 }
